@@ -66,5 +66,5 @@ Pair fastDiameter(node *root){
 int main(){
     node *root=buildtree();
     cout << "THE DIAMETER OF B T IS:" << endl;
-    cout << fastDiameter(root) << endl;
+    cout << fastDiameter(root).diameter << endl;
 }
